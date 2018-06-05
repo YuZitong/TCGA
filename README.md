@@ -76,6 +76,11 @@ DNA甲基化预测分类流程。其中training_workflow结尾的是使用整个
 python依赖库：同meth_classification_workflow
 剔除除01标签以外的肿瘤样本，并进行训练、预测、生成混淆矩阵的流程。
 
+# autoencoder3d
+环境：python2.7
+python依赖库：keras、sys、os、matplotlib、matplotlib、numpy
+使用自编码器进行DNA甲基化的无监督聚类
+
 # 附录
 ## Keras 文档
 https://keras-cn.readthedocs.io/en/latest/
